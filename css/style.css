@@ -1,0 +1,59 @@
+    h1 { 
+        color: red; 
+        font-size: 20px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style: italic;
+    }   
+
+    /* Grouping */
+    h2,h3 {
+        color: blue;
+        font-size: 30px;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-style: oblique;
+    }
+
+    #tulis1 {
+        color: darkgray;
+        font-size: 20px;
+        font-family:'Times New Roman';
+        font-style: italic;      
+        font-weight: bold;
+        text-align:center ; 
+        text-decoration: dashed;
+        text-transform: capitalize;
+    }
+
+        .tulis2 {
+        color: chartreuse;
+        font-size: 20px;
+        font-family:'Helvetica';
+        font-style: italic;      
+        font-weight: bold;
+        text-align:center ; 
+        text-decoration: dotted;
+        text-transform: lowercase;
+    }
+
+    div.tulis3{
+        color: orange;
+        font-size: 40px;
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    hr {
+        border: 20px red solid;
+        border-radius: 20px;
+    }
+
+    h1.marquee{
+        background-color: black;
+        border: 5px dotted orange;
+        border-radius: 50px;
+        color: white;
+    }
+
+    html,body {
+        background:linear-gradient(yellow, red,blue);
+    }
+
