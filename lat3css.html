@@ -3,71 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Internal CSS</title>
-    <style>
-    h1 { 
-        color: red; 
-        font-size: 20px;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-style: italic;
-    }   
-
-    /* Grouping */
-    h2,h3 {
-        color: blue;
-        font-size: 30px;
-        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-        font-style: oblique;
-    }
-
-    #tulis1 {
-        color: darkgray;
-        font-size: 20px;
-        font-family:'Times New Roman';
-        font-style: italic;      
-        font-weight: bold;
-        text-align:center ; 
-        text-decoration: dashed;
-        text-transform: capitalize;
-    }
-
-        .tulis2 {
-        color: chartreuse;
-        font-size: 20px;
-        font-family:'Helvetica';
-        font-style: italic;      
-        font-weight: bold;
-        text-align:center ; 
-        text-decoration: dotted;
-        text-transform: lowercase;
-    }
-
-    div.tulis3{
-        color: orange;
-        font-size: 40px;
-        text-decoration: underline;
-        font-weight: bold;
-    }
-
-    hr {
-        border: 20px red solid;
-        border-radius: 20px;
-    }
-
-    h1.marquee{
-        background-color: black;
-        border: 5px dotted orange;
-        border-radius: 50px;
-        color: white;
-    }
-
-    html,body {
-        background:linear-gradient(yellow, red,blue);
-    }
-
-    </style>
+    <title>Eksternal CSS</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
 <body>
-    <!-- internal css -->
+    <!-- eksternal css -->
 
 
     <h1>Tulisan tag h1</h1>
@@ -82,7 +22,7 @@
 
     <hr>
 
-    <div class="tulis3">Lorem ipsum, dolor sit ametz consectetur adipisicing elit. Commodi earum excepturi sint mollitia impedit officia corrupti deleniti est ipsam eveniet numquam reprehenderit enim ducimus at inventore saepe cumque, tempora esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iusto dolorum ipsam alias placeat rerum, ullam maiores sequi, doloremque facilis, itaque dolores quibusdam ex harum? Ab libero nisi laborum nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, culpa, sapiente quam quia accusantium laudantium pariatur optio atque impedit ipsa nulla aperiam, magni sed eos. Deleniti ratione neque minus quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum iste aut cumque pariatur nemo omnis quos laborum, aperiam praesentium quis laboriosam delectus eum rem, enim rerum unde accusamus dolorem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident ipsum veniam tempora odit voluptate. Dolore quas voluptates quam eius recusandae eaque reiciendis possimus, in porro earum commodi minus eos accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sequi tempora quisquam, nam, architecto, cum impedit ipsam animi vitae ea est possimus quod fuga! Officia repellat repellendus dolores nemo expedita. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sed ab similique unde, obcaecati dolores dignissimos vel, maxime tempora aperiam beatae, consequatur placeat repudiandae tenetur cum doloremque fuga corrupti totam.  </div>
+<div class="tulis3">Lorem ipsum, dolor sit ametz consectetur adipisicing elit. Commodi earum excepturi sint mollitia impedit officia corrupti deleniti est ipsam eveniet numquam reprehenderit enim ducimus at inventore saepe cumque, tempora esse! Lorem ipsum dolor sit amet consectetur adipisicing elit. Et iusto dolorum ipsam alias placeat rerum, ullam maiores sequi, doloremque facilis, itaque dolores quibusdam ex harum? Ab libero nisi laborum nulla! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, culpa, sapiente quam quia accusantium laudantium pariatur optio atque impedit ipsa nulla aperiam, magni sed eos. Deleniti ratione neque minus quam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut ipsum iste aut cumque pariatur nemo omnis quos laborum, aperiam praesentium quis laboriosam delectus eum rem, enim rerum unde accusamus dolorem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident ipsum veniam tempora odit voluptate. Dolore quas voluptates quam eius recusandae eaque reiciendis possimus, in porro earum commodi minus eos accusantium. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam sequi tempora quisquam, nam, architecto, cum impedit ipsam animi vitae ea est possimus quod fuga! Officia repellat repellendus dolores nemo expedita. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto sed ab similique unde, obcaecati dolores dignissimos vel, maxime tempora aperiam beatae, consequatur placeat repudiandae tenetur cum doloremque fuga corrupti totam.  </div>
 
 
 <br>
@@ -98,7 +38,7 @@
 
 <br>
 
-<h1 class="marquee">
+<h1>
     <marquee behavior="alternate">Selamat datang di kursus NF Academy</marquee>
 </h1>
 
