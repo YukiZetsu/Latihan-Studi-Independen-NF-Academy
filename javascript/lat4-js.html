@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variabel</title>
+</head>
+<body>
+    <script>
+        var kalimat="Belajar Javascript";
+        alert(kalimat);
+        document.write(kalimat);
+        console.log(kalimat);
+
+        document.write("<br>");
+
+        let kalimatku="Belajar Web";
+        alert(kalimatku);
+        document.write(kalimatku);
+        console.log(kalimatku);
+
+        document.write("<hr>");
+
+        let nama = "Budi Santoso";
+        let pekerjaan = "Mahasiswa";
+        let umur = 20; //tipe data integer
+        let berat = 70.5; //tipe data float
+        let kursus="NFA";
+        let alamat="JL. Lenteng Agung Raya";
+        document.write("saya kursus di " + kursus);
+        document.write(" lokasi tempat di " + alamat);
+        document.write("<br>");
+        // cetak langsung 1 kalimat
+        document.write("Nama Saya: " + nama + ", Seorang "  + pekerjaan + ", Berumur " + umur + " Tahun " + "dengan berat badan " + berat + "kg");
+
+        document.write("<br>");
+
+        var produk = "TV";
+        let stok = 4; //var/let: nilainya dapat diubah
+        const harga = 5000000; //const: nilainya tidak dapat diubah, alias tetap
+        //cetak 1 
+        document.write("Nama Produk: " + produk);
+        document.write("<br>Stok Produk: " + stok);
+        document.write("<br>Harga Produk: Rp." + harga);
+
+        document.write("<br>");
+
+        //cetak 2
+        document.write(
+            "Nama Produk: " + produk +
+            "<br>Stok Produk: " + stok + 
+            "<br>Harga Produk: Rp." + harga
+        );
+
+        document.write("<Hr>");
+        let namaku = "Joko";
+        const umurku = 20;
+
+        namaku = "Tika";
+        // umurku = 30;
+        document.write("namaku " + namaku + " berumur " + umurku + " tahun");
+        
+
+    </script>
+</body>
+</html>
