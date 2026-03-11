@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IF Nested</title>
+</head>
+<body>
+    <script>
+        let username = prompt("Username: ");
+        let password = prompt("Password: ");
+
+        // jika username dan password cocok, maka selamat datang
+        // jika password tidak cocok, salah coba lagi
+        // jika username dan password tidak cocok, maka tidak terdaftar
+
+        if (username == "dono") {
+            if (password == "dono123") {
+                document.write("Selamat Datang " + username)
+            } else {
+                document.write("Password Salah, coba lagi");
+            }
+            
+        } else {
+            document.write("Anda belum terdaftar");
+        }
+
+    </script>
+</body>
+</html>
