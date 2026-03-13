@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document Object Model</title>
+</head>
+<body>
+    <img id="gambar" src="gambar/banner1.png" alt="" width="200">
+
+    <button onclick="ubahGambar()" id="gambar">Ubah Gambar</button>
+
+    <script>
+        function ubahGambar(){
+            document.getElementById("gambar").setAttribute("src", "gambar/banner2.png");
+            document.getElementById("gambar").setAttribute("alt", "");
+        }
+    </script>
+
+</body>
+</html>
